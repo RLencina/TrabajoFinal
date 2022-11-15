@@ -120,6 +120,12 @@
         grid-column: auto;
         grid-row: auto;
     }
+    .cards-container {
+        border: #221242;
+        padding: 20px;
+        width: 200%;
+        height: 250px;
+    }
  }
  
  

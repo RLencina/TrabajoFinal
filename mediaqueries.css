@@ -135,6 +135,7 @@
         flex-direction: column;
         text-align: center;
     }
+    
 
     /* ----------------PAQUETES ---------------*/
     .product {
@@ -185,7 +186,10 @@
     
        .cards-container {
         border: #221242;
-        padding: 0px;
+        padding: 20px;
+        width: 200%;
+        height: 250px;
+        
         
         
     }

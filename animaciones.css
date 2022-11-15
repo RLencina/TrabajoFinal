@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 35px;
+}
+
+.navbar-list li {
+    position: relative;
+    padding: 0;
+}
+
+.navbar-list li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease;
+}
+
+.navbar-list li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+.product {
+    transition: all 0.3s linear;
+}
+
+.product:hover {
+    transform: scale(1.048);
+    transition: all 0.3s ease-in-out;
+}
+.item {
+    transition: all 0.5s linear;
+}
+.item:hover {
+    transform: scale(1.048);
+    transition: all 0.5s ease-in-out;
+}
+
+.btnCart:hover {
+    transition: all 0.2s ease-in;
+    color: #000000;
+    background: #6795d4;
+    border: none;
+    transform: scale(1.1);
+}
+
+
+
+  @keyframes slide-top {
+    from {
+      transform: translateY(-370px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+.texthero h1 {
+    animation: slide-top 1.7s ease-in-out;
+}
+
+/*....................LOGIN-------------------------*/
+.botonrecupero:hover {
+    
+    transition: all 0.2s ease-in;
+    color: #000000;
+    background: #6795d4;
+    border: none;
+    transform: scale(1.1);
+}
+.botoningresar:hover {
+   
+    transition: all 0.2s ease-in;
+    color: #000000;
+    background: #6795d4;
+    border: none;
+    transform: scale(1.1);
+}
+.divlogin {
+    animation: slide-top 0.9s ease-in-out;
+}
+
+/*------------------CARRITO--------------------*/
+.btn-add:hover {
+    transition: all 0.2s ease-in;
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    transform: scale(1.1);
+    font-weight: 900;
+}
+

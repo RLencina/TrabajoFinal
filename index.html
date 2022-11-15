@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiMundo</title>
+    <link rel="stylesheet" href="animaciones.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+</head>
+<body>
+    <header>
+        <img src="./img/LOGOMIMUNDO.png" alt="Logo MI-MUNDO" class="logo">
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+               <img src="./img/menu hamburguesa.webp" alt="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="navbar-list">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#info">Nosotros</a></li>
+                <li><a href="#paquetes">Paquetes</a></li>
+                <li><a href="#max-width">Galeria</a></li>
+                <li><a href="#contacto">Contacto</a></li>   
+                <li><a href="./login.html">Ingresar</a></li>   
+
+            </ul>
+            <label for="carttoggle" class="cartlabel"><i class="fa-solid fa-cart-shopping carrito"></i></label>
+            <input type="checkbox" id="carttoggle">
+           
+            <div class="cart">
+                <h2>Tus productos</h2>
+              
+               <div class="cart-item">
+                <img src="./img/roma.jpg" alt="">
+                <div class="cart-info">
+                    <h3 class="tittlecart">Roma</h3>
+                    <p class="bidinfo">15 noches + estadia completa</p>
+                    <span class="price">$120.000</span>
+                </div>
+                <div class="item-handler">
+                    <span class="quantify-handler down">-</span>
+                    <span class="item-quantify">1</span>
+                    <span class="quantify-handler up">+</span>
+                </div>
+               </div>
+               <span class="divider"></span>
+             <div class="cart-total">
+              <p>Total:</p>
+               <span>$120.000</span>
+              </div>
+              <button class="btn-add">Comprar</button>
+          </div>
+      </nav>
+      </header>
+      <main>
+        <section id="hero">
+            <div class="heroimg">
+                <div class="texthero">
+                    <h1>DESCUBRÍ MOMENTOS DE VIAJE DIGNOS DE UNA HISTORIA</h1>
+                </div>
+            </div>
+
+        </section>
+        <section id="info">
+            <div class="info-cards">
+                <div class="cards-container">
+                    <img src="./img/monedas.png" alt="Icono Moneda" >
+                    <h3>Miles de viajes baratos</h3>
+                    <p>Vayas donde vayas, encuentra tu viaje ideal a un precio muy bajo.</p>
+                 </div>
+                 <div class="cards-container">
+                    <img src="./img/viajee.png" alt="Icono viaje" >
+                    <h3>Viaja seguro y tranquilo</h3>
+                    <p>Para nosotros es muy importante conocer a nuestros usuarios. Por eso, examinamos atentamente las opiniones y los perfiles de nuestros usuarios para que sepas con quién vas a viajar. Puedes reservar tu próximo viaje con total seguridad y tranquilidad. </p>
+                  </div>
+                  <div class="cards-container">
+                    <img src="./img/rayoo.png" alt="Icono rayo" >
+                    <h3>¡Busca, elige y a viajar!</h3>
+                    <p>¡Reservar un viaje es más fácil que nunca! Gracias a nuestra sencilla aplicación y a su potente tecnología, podrás reservar un viaje cerca de ti en minutos.  </p>
+                </div>
+
+            </div>
+        </section>
+        <section id="paquetes">
+            <h2>LOS MEJORES PAQUETES PENSADOS PARA VOS</h2>
+           <div class="product-container">
+             <div class="product">
+                <img src="./img/pont-paris-andorra-vella-2241959.webp" alt="Andorra" class="img-pz">
+                 <div class="product-info">
+                    <div class="nombre">
+                        <h3>Andorra</h3>
+                        <p>10 noches + estadia completa</p> </div>
+                        <div class="precios">
+                            <p>$ 120.000</p>
+                            <button class="btnCart"> Comprar</button>
+                            
+                        </div>
+                    </div>
+
+                 </div>
+             
+             
+                 <div class="product">
+                     <img src="./img/jujuy.jpg" alt="jujuy" class="img-pz">
+                     <div class="product-info">
+                         <div class="nombre">
+                            <h3>Jujuy</h3>
+                            <p>4 noches + desayuno</p> </div>
+                            <div class="precios">
+                                <p>$ 35.000</p>
+                                <button class="btnCart">Comprar</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                 
+                 
+                    <div class="product">
+                        <img src="./img/mexico.jpg" alt="México" class="img-pz">
+                        <div class="product-info">
+                            <div class="nombre">
+                                <h3>México</h3>
+                                <p>15 noches + alojamiento</p> </div>
+                                <div class="precios">
+                                    <p>$ 80.000</p>
+                                    <button class="btnCart">Comprar</button>
+                                </div>
+                            </div>
+        
+                        </div>
+                    
+                    
+                        <div class="product">
+                            <img src="./img/Bariloche.jpg" alt="Bariloche" class="img-pz">
+                            <div class="product-info">
+                                <div class="nombre">
+                                    <h3>Bariloche</h3>
+                                    <p>7 noches + cena</p> </div>
+                                    <div class="precios">
+                                        <p>$ 50.000</p>
+                                        <button class="btnCart">Comprar</button>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        
+                        
+                            <div class="product">
+                                <img src="./img/brasil.jpg" alt="brasil" class="img-pz">
+                                <div class="product-info">
+                                    <div class="nombre">
+                                        <h3>Brasil</h3>
+                                        <p>10 noches + estadia completa</p> </div>
+                                        <div class="precios">
+                                            <p>$ 75.000</p>
+                                            <button class="btnCart">Comprar</button>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            
+                           
+                                <div class="product">
+                                    <img src="./img/italia.jpg" alt="Italia" class="img-pz">
+                                    <div class="product-info">
+                                        <div class="nombre">
+                                            <h3>Italia</h3>
+                                            <p>20 noches + hotel 5 estrellas</p></div>
+                                            <div class="precios">
+                                                <p>$ 100.000</p>
+                                                <button class="btnCart">Comprar</button>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                                
+                               
+                                    <div class="product">
+                                        <img src="./img/francia.jpg" alt="Francia" class="img-pz">
+                                        <div class="product-info">
+                                            <div class="nombre">
+                                                <h3>Francia</h3>
+                                                <p>18 noches + estadia completa</p></div>
+                                                <div class="precios">
+                                                    <p>$ 130.000</p>
+                                                    <button class="btnCart">Comprar</button>
+                                                </div>
+                                            </div>
+                        
+                                        </div>
+                                    
+                                   
+                                        <div class="product">
+                                            <img src="./img/roma.jpg" alt="Roma" class="img-pz">
+                                            <div class="product-info">
+                                                <div class="nombre">
+                                                    <h3>Roma</h3>
+                                                    <p>15 noches + estadia completa</p></div>
+                                                    <div class="precios">
+                                                        <p>$ 120.000</p>
+                                                        <button class="btnCart">Comprar</button>
+                                                    </div>
+                                                </div>
+                            
+                                            </div>
+                                            <div class="product">
+                                                <img src="./img/calafate.jpg" alt="Calafate" class="img-pz">
+                                                <div class="product-info">
+                                                    <div class="nombre">
+                                                        <h3>Calafate</h3>
+                                                        <p>10 noches + cena</p></div>
+                                                        <div class="precios">
+                                                            <p>$ 90.000</p>
+                                                            <button class="btnCart">Comprar</button>
+                                                        </div>
+                                                    </div>
+                                
+                                                </div>
+                                        
+           </div>
+
+        </section>
+        <section id="max-width">
+            <div class="galeria">
+                <h2>GALERIA</h2>
+            </div>
+            <div class="container1">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+
+
+            </div>
+     </section>
+
+        <section id="contacto">
+             <h2>CONTACTO</h2>
+            <div class="contenedorcontacto">
+                <div class="divmapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.918725990149!2d-58.426980684839876!3d-34.580922980465274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d4aac97c1c2f761!2zMzTCsDM0JzUxLjMiUyA1OMKwMjUnMjkuMyJX!5e0!3m2!1ses-419!2sar!4v1668048884281!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+
+             <div class="divcontacto">
+                <div class="form">
+                    <form>
+                        <h3>¡Dejanos tus datos y nosotros te contactamos!</h3>
+                        <div>
+                         <textarea placeholder="Motivo de contácto" class="motivo" cols="50" rows="5"></textarea>
+                        </div>
+                        <div class="divinput">
+                            <div class="input1">
+                                <div>
+                                    <div class="nomb">
+                                        <textarea placeholder="Nombre" class="nombre-" cols="50" rows="2.9"></textarea>
+                                       </div>
+
+                                       <div class="apl">
+                                        <textarea placeholder="Apellido" class="apellido-" cols="50" rows="2.9"></textarea>
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="input1">
+                                <div class=" mail">
+                                    <textarea placeholder="E-mail" class="mail-" cols="50" rows="2.9"></textarea>
+                                   </div>
+
+                                   <div class="tel">
+                                    <textarea placeholder="Teléfono" class="telefono-" cols="50" rows="2.9"></textarea>
+                                   </div>
+
+                            </div>
+
+                            <input type="submit" value="Enviar" class="submit">
+
+                        </div>
+                    </form>
+
+
+
+                </div>
+                <div class="divdatos">
+                    <div class="datos1">
+                 <img src="./img/casita.png" alt="casita" class="logo1">
+                 
+                 <div class="datos2 ">
+                    <span>Palermo - Buenos Aires</span>
+                    <p>Av. Guemes 4025</p>
+                 </div>
+                    </div>
+
+                    <div class="datos1">
+                        <img src="./img/correo.png" alt="correo" class="logo1">
+                        
+                        <div class="datos2 ">
+                           <span>Mimundo@travel.com.ar</span>
+                           <p>¡Dejanos tu consulta!</p>
+                        </div>
+                           </div>
+
+                           <div class="datos1">
+                            <img src="./img/celular.png" alt="celular" class="logo1">
+                            
+                            <div class="datos2 ">
+                               <span>114394273</span>
+                               <p>¡Escribinos!</p>
+                            </div>
+                               </div>
+
+                </div> 
+            </div>
+         </div> 
+        </section>
+      </main>
+
+      <footer>
+        <div>
+            <ul class="footer-link">
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Redes Sociales</a></li>
+                <li><a href="#">Trabajá con Nosotros</a></li>
+            </ul>
+        </div>
+      <p><span> MI MUNDO TRAVEL ✈️</span> </p>
+       </footer>
+</body>
+</html>

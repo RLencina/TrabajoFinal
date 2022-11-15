@@ -493,16 +493,15 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:25px;
+    gap:20px;
     width: 100%;
-    padding: 25px 0 0 15px;
+    padding: 15px 0 0;
 }
 footer a, 
 footer p {
     color: rgb(0, 0, 0);
     font-weight: 400;
-    font-size: 14px;
-    height: 30px;   
+    font-size: 14px; 
     text-decoration: none;
     padding-bottom: 15px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -510,7 +509,6 @@ footer p {
 footer span {
     font-weight: 900;
     font-size: 14px;
-    padding-top: 25px;
     gap: 20px;
     
   }
@@ -518,7 +516,8 @@ footer span {
 .footer-link {
     display: flex;
     justify-content: center;
-    gap: 20px;}
+    gap: 25px;
+}
 
  /*--------------------------LOGIN----------------------------------*/
 
@@ -608,15 +607,16 @@ footer span {
     position: absolute;
     top: 99px;
     right: 0;
-    padding: 50px 30px;
+    padding: 10px 30px;
     background-color:rgba(0, 0, 0, 0.7);
-    display: flex;
     flex-direction: column;
     gap: 30px;
-    height: calc(100vh -80px);
+    height: 100vh;
     z-index: 2;
     display: none;
-    width: 350px;
+   
+    
+    
     }
         
     .cart h2{
@@ -630,19 +630,20 @@ footer span {
         display: flex;
         align-items:center;
         justify-content:space-between;
-        gap: 20px;
+        gap: 13px;
         border: 3px solid #ffffff ;
         padding: 20px;
         border-radius: 10px;
-        width: 300px;
+        width: 250px;
         flex-direction: column;
+        
     }
     
     
       
     .cart-item img{
-        width: 250px;
-        height: 150px;
+        width: 200px;
+        height: 100px;
         border-radius: 5px;
     }
     
@@ -656,7 +657,7 @@ footer span {
     
     .bidinfo{
         color: rgb(255, 255, 255);
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 400;
     }
     
@@ -667,6 +668,7 @@ footer span {
         -webkit-background-clip: text;
         font-size: 16px;
         font-weight: 800;
+        gap: 5px;
     }
     
     .item-handler{
@@ -703,7 +705,7 @@ footer span {
     }
     
     .divider{
-        margin-top: 20px;
+        margin-top: 8px;
         border: 2px solid #d4dd2d;
     }
     
@@ -730,6 +732,6 @@ footer span {
         cursor: pointer;
         background-color:#131415;
         border-radius: 15px;
-        padding: 10px;
+        padding: 8px;
         font-family: 'Roboto Condensed', sans-serif;
     }
